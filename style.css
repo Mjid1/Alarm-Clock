@@ -22,7 +22,7 @@ body{
     padding: 30px 30px 38px;
 }
 .wrapper img{
-    max-width: 103px;
+    max-width: 103px;   
 }
 .wrapper h1{
     font-size: 38px;
@@ -32,6 +32,10 @@ body{
 .wrapper .content{
     width: 100%;
     justify-content: space-between;
+}
+.wrapper .content.disable{
+    opacity: 0.6;
+    pointer-events: none;
 }
 
 .content .column{
